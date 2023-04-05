@@ -9,6 +9,7 @@ const bodyparser = require("body-parser");
  app.get('/', (req, res) =>{
     res.send("my application is here")
  });
+ 
  app.post('/login', (req, res) =>{
     console.log(req.body);
     //do some database process
