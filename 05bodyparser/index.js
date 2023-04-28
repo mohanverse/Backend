@@ -15,6 +15,7 @@ const bodyparser = require("body-parser");
     //do some database process
     res.redirect("/")
  })
+ 
 
  app.listen(3000, ()=>{
     console.log("server is running at 3000....");
